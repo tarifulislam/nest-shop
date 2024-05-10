@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* #root{
+    zoom: 80%;
+} */
+.conteiner-fluid{
+    padding: 0px 45px ;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.bgg-g{
+    background: #3bb77e; 
+}
+
+.text-g{
+  color: #3bb77e; 
+}

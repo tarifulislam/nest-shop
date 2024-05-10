@@ -1,0 +1,75 @@
+.topSelling-box h3{
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px
+}
+
+.topSelling-box h3:after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #ccc;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.topSelling-box h3:before{
+    content: "";
+    width: 20%;
+    height: 3px;
+    background: #BCE3C9;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 10;
+}
+.topSelling-box .tItems {
+    padding: 15px 0px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.topSelling-box .tItems:hover{
+    transform: translateY(-10px);
+}
+
+.topSelling-box .tItems .topImg{
+    width: 30%;
+    background-color: #fafafa;
+}
+
+.topSelling-box .tItems .topImg img{
+    border-radius: 20px;
+}
+
+.topSelling-box .tItems .topInfo{
+    width: 70%;
+
+}
+
+.topSelling-box .tItems .topInfo a{
+    text-decoration: none;
+}
+.topInfo h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.topInfo  .topNewPrice{
+    color: #3BB77E;
+    font-size: 25px;
+    font-weight: 500;
+}
+    
+    
+.topInfo  .topOldPrice{
+    text-decoration: line-through;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+    

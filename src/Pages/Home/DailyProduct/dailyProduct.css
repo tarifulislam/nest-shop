@@ -1,0 +1,112 @@
+
+.daily-slider-main .slick-slide{
+    padding-right: 20px !important;
+}
+
+.daily-slider-main .daily-item{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+
+.dailyBanner{
+  position: relative;
+}
+
+.dailyBanner .dailyBanner-info{
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.dailyBanner .dailyBanner-info h2{
+ font-size: 45px;
+ font-weight: 700;
+ color: #253D4E;
+ margin-bottom: 20%;
+}
+
+.dailyBanner .dailyBanner-info button{
+    outline: none;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 30px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3BB77E;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dailyBanner .dailyBanner-info button:hover{
+    background-color: #FDC040;
+}
+
+.dailyBannerImg{
+    height: 550px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.daily-slider-main .daily-item .daily-info{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.daily-slider-main .daily-item .daily-info h5{
+    font-weight: 500;
+}
+
+.daily-slider-main .daily-item .daily-info p{
+   font-size: 14px;
+   opacity: 0.8;
+   color: #000;
+}
+
+.daily-slider-main .slick-arrow{
+    position: absolute;
+    top: 47%;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    background-color: #F2F3F4;
+    z-index: 100;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.daily-slider-main .daily-item:hover .daily-info{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.daily-slider-main .slick-prev:before{
+    content: "\f053" !important; 
+    font-family: FontAwesome !important;
+    color: #000 !important;
+    font-size: 25px !important;
+}
+
+.daily-slider-main  .slick-next:before{
+    content: "\f054" !important; 
+    font-family: FontAwesome !important;
+    color: #000 !important;
+    font-size: 25px !important;
+}
+
+.daily-slider-main  .slick-next {
+    right: 2% !important;
+}
+
+.daily-slider-main  .slick-prev {
+   left: 2% !important;
+}

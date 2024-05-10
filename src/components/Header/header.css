@@ -1,0 +1,144 @@
+header{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+/* .headerWrapper{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+} */
+
+.fixedHeader{
+    position: fixed;
+    top: -126px;
+    left: 0px;
+    width: 100%;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out !important;
+}
+
+header .headerSearch{
+    width: 100%;
+    height: 60px;
+    border: 1PX solid #bce3c9;
+    padding: 10px 20px;
+}
+header .headerSearch .selectDropWrapper{
+    width: 22%;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+header .headerSearch .selectDropWrapper::after{
+    content: "";
+    width: 1px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 4px;
+    right: 0px;
+
+
+}
+header .headerSearch .search{
+    width: 78%;
+    padding-left: 30px;
+    position: relative;
+}
+header .headerSearch .search input{
+    width: 100%;
+    height: 50%;
+    border: 0px;
+    outline: none ;
+    font-size: 16px;
+}
+
+header .headerSearch .search .searchIcon{
+   position: absolute;
+   top: 0px;
+   right: 10px;
+   opacity: 0.7;
+}
+
+header .countryWrapper .selectDropWrapper{
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 50px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .countryWrapper .selectDropWrapper .openSelectDrop{
+    width: 100%;
+}
+
+header .countryWrapper .selectDropWrapper .selectDropItem{
+    left: 0px !important;
+}
+
+header .countryWrapper .openSelectDrop{
+    color: #279a65 !important;
+}
+
+header .headerTabs {
+   padding-left: 40px;
+}
+header .headerTabs li{
+    position: relative;
+}
+header .headerTabs li span{
+    margin-left: 20px;
+}
+header .headerTabs li span img{
+    margin-right: 5px;
+}
+header .headerTabs li span .badge{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+}
+
+.dropdownMenuAcc{
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 200px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 10px 0px!important;
+    z-index: 100;
+
+}
+.dropdownMenuAcc li{
+    width: 100%;
+    list-style: none;
+    margin: 0px !important;
+
+}
+.dropdownMenuAcc li button{
+    width: 100% !important;
+    justify-content: start !important;
+    padding: 10px 15px !important;
+    text-transform: capitalize !important;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.dropdownMenuAcc li button svg {
+    opacity: 0.7;
+    margin-right: 8px;
+}
+
+.dropdownMenuAcc li button:hover{
+    background: #f1f1f1
+}

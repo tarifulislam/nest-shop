@@ -1,0 +1,96 @@
+.naav{
+    width: 1005;
+    height: 70px;
+    margin: auto;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.catTab{
+    padding: 10px 20px !important;
+    font-size:20px;
+    text-transform: capitalize !important; 
+
+}
+.naav nav ul li{
+    position: relative;
+}
+.naav nav ul li button{
+    text-transform: capitalize;
+    padding: 10px 25px ;
+    color:#3bb77e ;
+
+}
+
+.naav nav ul li button a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+    font-size: 20px;
+}
+
+.naav .part3 .phNo svg{
+    font-size: 40px;
+    opacity: 0.8;
+}
+.naav .part3 .phNo .info h3{
+    font-size: 32px;
+}
+.naav .part3 .phNo .info p{
+    font-size: 16px;
+}
+
+.naav .dropSubMenu{
+    position: absolute;
+    top: 150%;
+    left: 0px;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 20px 0px;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+}
+
+.naav .dropSubMenu li{
+    list-style: none;
+    width: 100%;
+    margin: 0px !important;
+ 
+}
+.naav .dropSubMenu li button{
+    width: 100% !important;
+    justify-content: start !important;
+    padding: 8px 15px !important;
+    text-transform: capitalize !important;
+    color:#3bb77e ;
+}
+
+.naav nav li:hover .dropSubMenu{
+    top: 120%;
+    opacity: 1;
+    visibility: inherit;
+
+}
+
+.dropSubMenuMega{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    height: auto !important;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 25px 40px !important;
+}
+
+.dropSubMenuMega .col ul li {
+    list-style-type: none;
+    margin-bottom: 10px !important;
+}
+
+.dropSubMenuMega .col ul li a {
+   text-decoration: none;
+   color: rgba(0,0,0,0.7);
+   font-size: 20px;
+}

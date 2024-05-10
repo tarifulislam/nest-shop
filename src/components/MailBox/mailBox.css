@@ -1,0 +1,41 @@
+
+.newsLetterBanner{
+    width: 500px !important;
+    height: 60px;
+    bottom: 80px;
+    left: 8%;
+    z-index: 10;
+    position: absolute;
+}
+
+ .newsLetterBanner input{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 35px;
+    border: 0px;
+    outline: none;
+    font-size: 20px;
+    padding-left: 60px !important;
+    padding-right: 180px !important;
+}
+
+.newsLetterBanner button{
+    padding: 0px 30px !important;
+    border-radius: 35px !important;
+    background-color: #3bb77e;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+
+}
+
+.newsLetterBanner svg {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    opacity: 0.5;
+}

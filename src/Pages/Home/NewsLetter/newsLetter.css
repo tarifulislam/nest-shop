@@ -1,0 +1,29 @@
+.news-box{
+    width: 100%;
+    height: auto;
+    background-image: url("../../../assets/img/banner-10.png");
+    border-radius: 30px;
+    
+}
+.news-box .news-info{
+    width: 60%;
+    position: relative !important;
+    left: 0px !important;
+    bottom: inherit !important;;
+    padding: 5%;
+}
+.news-box .news-info h3{
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.news-box .news-info h4{
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #6a6a6a;
+
+}
+.news-box .news-img{
+    width: 40%;
+}
+
